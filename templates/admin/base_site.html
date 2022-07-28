@@ -3,10 +3,10 @@
 
 {% block branding %}
     <h1 id="head">
-        <img src="{% static '/img/logo.png' %}" class="brand_img" alt="BT Real Estate" height="50"
-        width="80> 
-        Admin Area 
+        <img src="{% static 'img/logo.png' %}" alt="BT Real Estate" height="50"
+        width="80" class="brand_img"> Admin
     </h1>
-    
-
+{% endblock %}
+{% block extrastyle %}
+    <link rel="stylesheet" href="{% static 'css/admin.css' %}">
 {% endblock %}
